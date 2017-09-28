@@ -7,7 +7,7 @@ $(function () {
     });
     var $navDown = $(".nav-down");
     $("#nav-button").on("click",function () {
-        $navDown.stop().slideToggle();
+        $navDown.stop(true,false).slideToggle();
     });
 
     // 轮播图
