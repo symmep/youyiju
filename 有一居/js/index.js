@@ -3,11 +3,11 @@ $(function () {
     var $dropDownM = $(".dropDown-menu");
     $(".dropDown").on("click",function () {
         $dropDownM.stop().slideToggle();
-        return false;
+        return false
     });
     var $navDown = $(".nav-down");
     $("#nav-button").on("click",function () {
-        $navDown.stop(true,false).slideToggle();
+        $navDown.stop().slideToggle();
     });
 
     // 轮播图
